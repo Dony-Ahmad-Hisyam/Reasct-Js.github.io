@@ -1,0 +1,136 @@
+.Grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 10px 10px auto;
+  padding: 2px;
+}
+.Gambar {
+  width: 700px;
+  height: 600px;
+}
+
+.Teks {
+  gap: 12px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.ReleaseB {
+  color: blue;
+  text-align: start;
+}
+.Release {
+  text-align: start;
+  font-family: serif;
+  font-size: large;
+}
+
+.ReleaseD {
+  text-align: start;
+  font-family: serif;
+}
+.Release1 {
+  text-align: start;
+  color: chartreuse;
+}
+.Tables {
+  text-align: center;
+  border-collapse: collapse;
+}
+.Th {
+  padding: 5px;
+  width: 45px;
+
+  border: 1px solid;
+}
+.KontainerBuy {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  gap: 10px;
+  width: 50%;
+}
+.Beli {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.Buy {
+  background-color: #080707;
+  color: aliceblue;
+  padding: 4px;
+  width: auto;
+}
+
+.Add {
+  background-color: #282c34;
+  color: aliceblue;
+  padding: 12px;
+}
+
+.Only {
+  display: grid;
+  text-align: left;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 100%;
+  gap: 00px;
+}
+
+.Tugas {
+  text-align: center;
+  width: 100px;
+  border-color: #61dafb;
+  background-color: aqua;
+  padding: 4px;
+  color: green;
+  font-family: serif;
+  font-size: large;
+}
+.Oki {
+  text-align: start;
+}
+
+.ButtonCenter {
+  display: grid;
+  gap: 20px;
+  justify-items: start;
+  width: 44px;
+  margin-bottom: 10px;
+  grid-template-columns: 20px 20px 20px;
+}
+
+.Button1 {
+  border-radius: 50%;
+  border-color: whitesmoke;
+  color: whitesmoke;
+  background-color: chartreuse;
+}
+.Button2 {
+  border-radius: 50%;
+  border-color: whitesmoke;
+  color: whitesmoke;
+  background-color: mediumblue;
+}
+.Button3 {
+  border-radius: 50%;
+  color: whitesmoke;
+  border-color: #080707;
+  background-color: #080707;
+}
+.Cable {
+  text-align: start;
+}
+
+.Akhir {
+  text-align: start;
+  margin-top: 12px;
+  color: coral;
+  margin-bottom: 10px;
+}
+
+.Moleh {
+  align-items: start;
+}
